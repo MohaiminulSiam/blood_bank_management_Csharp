@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using blood_bank_management_Csharp.Entity;
+using blood_bank_management_Csharp.GUI.admin;
+using blood_bank_management_Csharp.Repository;
 
 namespace blood_bank_management_Csharp
 {
@@ -25,7 +28,42 @@ namespace blood_bank_management_Csharp
             }
             else
             {
-                MessageBox.Show("Value Not Empty");
+                User_Table user = new User_Table();
+                user = User_Repository.GetUserDetail(this.txt_email.Text, this.txt_password.Text);
+
+                if (object.ReferenceEquals(null, user) || object.Equals(null, user))
+                {
+                    MessageBox.Show("No User Found");
+                    return;
+                }
+                else
+                {
+                    if (user.email == this.txt_email.Text && user.password == this.txt_password.Text)
+                    {
+                        if(user.role == "Admin")
+                        {
+                            DashBoard adminDash = new DashBoard(this,user);
+                            this.Hide();
+                            adminDash.ShowDialog();
+                        }
+                        else if (user.role == "Donor")
+                        {
+                            DashBoard donorDash = new DashBoard(this, user);
+                            this.Hide();
+                            donorDash.ShowDialog();
+                        }
+                        else if (user.role == "Requester")
+                        {
+                            DashBoard requesterDash = new DashBoard(this, user);
+                            this.Hide();
+                            requesterDash.ShowDialog();
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("No User Found");
+                    }
+                }
             }
         }
     }
