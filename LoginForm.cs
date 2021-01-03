@@ -66,5 +66,35 @@ namespace blood_bank_management_Csharp
                 }
             }
         }
+
+        private void lbl_signup_Click(object sender, EventArgs e)
+        {
+            SignUpForm signUpForm = new SignUpForm();
+            this.Hide();
+            signUpForm.StartPosition = FormStartPosition.CenterScreen;
+            signUpForm.ShowDialog();
+        }
+
+        private void lbl_signup_MouseHover(object sender, EventArgs e)
+        {
+            this.lbl_signup.ForeColor = Color.CadetBlue;
+        }
+
+        private void lbl_signup_MouseLeave(object sender, EventArgs e)
+        {
+            this.lbl_signup.ForeColor = Color.Black;
+        }
+
+        private void btn_signin_MouseHover(object sender, EventArgs e)
+        {
+            this.btn_signin.BackColor = Color.DarkSlateBlue;
+            this.btn_signin.ForeColor = Color.White;
+        }
+
+        private void btn_signin_MouseLeave(object sender, EventArgs e)
+        {
+            this.btn_signin.BackColor = Color.DarkSlateGray;
+            this.btn_signin.ForeColor = Color.DeepSkyBlue;
+        }
     }
 }

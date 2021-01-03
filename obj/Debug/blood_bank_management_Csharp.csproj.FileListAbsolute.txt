@@ -11,3 +11,4 @@ E:\AIUB 10th SEM\SIYAM\C#\blood_bank_management_Csharp\obj\Debug\blood_bank_mana
 E:\AIUB 10th SEM\SIYAM\C#\blood_bank_management_Csharp\obj\Debug\blood_bank_management_Csharp.csproj.CopyComplete
 E:\AIUB 10th SEM\SIYAM\C#\blood_bank_management_Csharp\obj\Debug\blood_bank_management_Csharp.exe
 E:\AIUB 10th SEM\SIYAM\C#\blood_bank_management_Csharp\obj\Debug\blood_bank_management_Csharp.pdb
+E:\AIUB 10th SEM\SIYAM\C#\blood_bank_management_Csharp\obj\Debug\blood_bank_management_Csharp.SignUpForm.resources

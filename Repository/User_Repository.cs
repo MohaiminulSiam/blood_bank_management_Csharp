@@ -102,16 +102,24 @@ namespace blood_bank_management_Csharp.Repository
             bool inserted = false;
             try
             {
-                string query = @"INSERT INTO [dbo].[user_table]([name],[email],[password],[phone],[address],[image],[join_date],[role])
-                                VALUES( '" + user.name + "' ,'" + user.email + "','" + user.password + "','" + user.phone + "','" + user.address +
-                                "','" + user.image + "','" + user.join_date + "','"+user.role +"')";
+                string query = @"INSERT INTO [dbo].[user_table] ([name]
+                                                           ,[email]
+                                                           ,[password]
+                                                           ,[phone]
+                                                           ,[address]
+                                                           ,[image]
+                                                           ,[join_date]
+                                                           ,[role])
+                                                     VALUES
+                                                           ( '" + user.name + "','" + user.email + "','" + user.password + "','" + user.phone + "','" + user.address +
+                                                             "','" + user.image + "','" + user.join_date + "','"+user.role +"')";
                 int row = DataAccess.ExecuteQuery(query);
                 if (row == 1)
                 {
                     inserted = true;
                 }
             }
-            catch
+            catch(Exception e)
             {
                 return false;
             }
