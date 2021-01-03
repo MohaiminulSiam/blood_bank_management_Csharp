@@ -16,7 +16,9 @@ namespace blood_bank_management_Csharp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            LoginForm loginForm = new LoginForm();
+            loginForm.StartPosition = FormStartPosition.CenterScreen;
+            Application.Run(loginForm);
         }
     }
 }

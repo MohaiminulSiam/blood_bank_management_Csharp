@@ -1,0 +1,13 @@
+E:\AIUB 10th SEM\SIYAM\C#\blood_bank_management_Csharp\bin\Debug\blood_bank_management_Csharp.exe.config
+E:\AIUB 10th SEM\SIYAM\C#\blood_bank_management_Csharp\bin\Debug\blood_bank_management_Csharp.exe
+E:\AIUB 10th SEM\SIYAM\C#\blood_bank_management_Csharp\bin\Debug\blood_bank_management_Csharp.pdb
+E:\AIUB 10th SEM\SIYAM\C#\blood_bank_management_Csharp\bin\Debug\Bunifu_UI_v1.52.dll
+E:\AIUB 10th SEM\SIYAM\C#\blood_bank_management_Csharp\bin\Debug\metroframework.dll
+E:\AIUB 10th SEM\SIYAM\C#\blood_bank_management_Csharp\obj\Debug\blood_bank_management_Csharp.csprojAssemblyReference.cache
+E:\AIUB 10th SEM\SIYAM\C#\blood_bank_management_Csharp\obj\Debug\blood_bank_management_Csharp.LoginForm.resources
+E:\AIUB 10th SEM\SIYAM\C#\blood_bank_management_Csharp\obj\Debug\blood_bank_management_Csharp.Properties.Resources.resources
+E:\AIUB 10th SEM\SIYAM\C#\blood_bank_management_Csharp\obj\Debug\blood_bank_management_Csharp.csproj.GenerateResource.cache
+E:\AIUB 10th SEM\SIYAM\C#\blood_bank_management_Csharp\obj\Debug\blood_bank_management_Csharp.csproj.CoreCompileInputs.cache
+E:\AIUB 10th SEM\SIYAM\C#\blood_bank_management_Csharp\obj\Debug\blood_bank_management_Csharp.csproj.CopyComplete
+E:\AIUB 10th SEM\SIYAM\C#\blood_bank_management_Csharp\obj\Debug\blood_bank_management_Csharp.exe
+E:\AIUB 10th SEM\SIYAM\C#\blood_bank_management_Csharp\obj\Debug\blood_bank_management_Csharp.pdb
